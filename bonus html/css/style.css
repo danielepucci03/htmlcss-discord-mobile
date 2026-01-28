@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img,video{
+    width: 512px;
+
+}
+
+body{
+    max-width: 512px;
+    background-color: rgb(4, 4, 106);
+    position: relative;
+}
+
+.main_title{
+    color: white;
+    font-size: 30px;
+    margin-top: 1rem;
+    font-family: "Sigmar", sans-serif;
+    text-align: center;
+    line-height: 30px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-transform: uppercase;
+    margin-bottom: -0.5rem;
+}
+
+.main_p{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    padding: 1rem 3rem;
+    padding-top: none;
+}
+
+button{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin-left: 4rem;
+    margin-left: 4rem;
+    width: 24rem;
+    font-family: "DM Sans", sans-serif;
+}
+
+a{
+    background-color: rgba(68, 68, 232, 0.839);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    margin: 1rem;
+    border-radius: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    font-family: "DM Sans", sans-serif;
+}
+
+.first_img img{
+    position: absolute;
+    width: 100px;
+    left: 15%;
+    top: 34.5%;
+    transition: -50% -50%;
+}
+
+.card{
+    border: 2px solid rgba(68, 68, 232, 0.839);
+    background-color: rgba(68, 68, 232, 0.839);
+    border-radius: 2rem;
+    padding: 2rem;
+    text-align: left;
+    margin-top: 4rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.title_card{
+    font-family: "Sigmar", sans-serif;
+    color: white;
+    padding-right: 3rem;
+    padding-top: 2rem;
+}
+
+.p_card{
+    font-family: "DM Sans", sans-serif;
+    color: white;
+}
+
+.img_card img{
+    width: 400px;
+    padding: 1rem;
+    border-radius: 3rem;
+}
+.second_img img{
+    position: absolute;
+    width: 100px;
+    left: 15%;
+    top: 67.5%;
+    transition: -50% -50%;
+}
+
+.second_img_card img{
+    width: 400px;
+    padding: 1rem;
+    border-radius: 3rem;
+}
