@@ -67,13 +67,12 @@ a{
 .first_img img{
     position: absolute;
     width: 100px;
-    left: 15%;
+    left: 38%;
     top: 34.5%;
     transition: -50% -50%;
 }
 
 .card{
-    border: 2px solid rgba(68, 68, 232, 0.839);
     background-color: rgba(68, 68, 232, 0.839);
     border-radius: 2rem;
     padding: 2rem;
@@ -81,6 +80,13 @@ a{
     margin-top: 4rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
+    background: linear-gradient(
+    to top,
+    rgba(118, 118, 239, 0.839),
+    rgba(76, 76, 200, 0.35),
+    #0d2867
+    );
+    box-shadow: 0 -20px 60px rgba(68, 68, 232, 0.45);
 }
 
 .title_card{
@@ -95,7 +101,7 @@ a{
     color: white;
 }
 
-.img_card img{
+.video_card video{
     width: 400px;
     padding: 1rem;
     border-radius: 3rem;
@@ -103,12 +109,12 @@ a{
 .second_img img{
     position: absolute;
     width: 100px;
-    left: 15%;
+    left: 38%;
     top: 67.5%;
     transition: -50% -50%;
 }
 
-.second_img_card img{
+.second_video_card video{
     width: 400px;
     padding: 1rem;
     border-radius: 3rem;
